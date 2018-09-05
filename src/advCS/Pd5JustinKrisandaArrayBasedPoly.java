@@ -7,7 +7,7 @@ public class Pd5JustinKrisandaArrayBasedPoly implements Pd5JustinKrisandaPolynom
 		this.poly=poly;
 	}
 	public Pd5JustinKrisandaArrayBasedPoly(double coeff,int exponent) {
-		this.poly=new double [exponent+1];
+		this.poly=new double [exponent+1]; 
 		for(int i=0;i<=exponent;i++)
 			poly[i]=0;
 		poly[exponent]=coeff;
